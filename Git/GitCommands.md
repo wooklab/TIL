@@ -2,7 +2,7 @@
 
 ### Git 명령어 모음
 
-`
+```
 git commit
 git commit --amend : 커밋 내용 정정
 git checkout [branch/tag명] : 해당 [branch/tag명]으로 이동
@@ -34,7 +34,7 @@ git push origin <source>:<destination>
 git fetch origin <source>:<destination> : 원격저장소의 <source>를 로컬저정소의 <destination>으로 가져온다.
 git push origin :<A> : 원격저장소의 <A>에 아무것도 없는 걸 push한다. 즉 원격저장소에 <A>브런치를 제거.
 git fetch origin :<A> : 원격저장소에서 아무것도 없는걸 fetch한다. 즉 로컬저장소에 <A>브런치 생성
-`
+```
 
 ### Git Practice Site
  - https://learngitbranching.js.org/
